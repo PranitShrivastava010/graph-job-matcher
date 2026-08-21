@@ -174,7 +174,7 @@ export default function JobListPage() {
             value={search}
             onChange={(e) => setSearch(e.target.value)}
             placeholder="Search by job title, company, or keyword..."
-            className="w-full bg-slate-850 border border-slate-700 rounded-xl pl-10 pr-4 py-2.5 text-xs sm:text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
+            className="w-full bg-slate-850 border border-slate-700 rounded-xl pl-10 pr-4 py-2.5 text-xs sm:text-sm text-black placeholder-slate-500 focus:outline-none focus:border-blue-500 transition-colors"
           />
         </div>
 
@@ -182,7 +182,7 @@ export default function JobListPage() {
           <select
             value={experience}
             onChange={(e) => setExperience(e.target.value)}
-            className="w-full bg-slate-850 border border-slate-700 rounded-xl px-3 py-2.5 text-xs sm:text-sm text-slate-200 focus:outline-none focus:border-blue-500 transition-colors"
+            className="w-full bg-slate-850 border border-slate-700 rounded-xl px-3 py-2.5 text-xs sm:text-sm text-black focus:outline-none focus:border-blue-500 transition-colors"
           >
             <option value="">All Experience Levels</option>
             <option value="Junior">Junior</option>
@@ -196,7 +196,7 @@ export default function JobListPage() {
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}
-            className="w-full bg-slate-850 border border-slate-700 rounded-xl px-3 py-2.5 text-xs sm:text-sm text-slate-200 focus:outline-none focus:border-blue-500 transition-colors"
+            className="w-full bg-slate-850 border border-slate-700 rounded-xl px-3 py-2.5 text-xs sm:text-sm text-black focus:outline-none focus:border-blue-500 transition-colors"
           >
             <option value="latest">Sort: Latest Added</option>
             <option value="title">Sort: Job Title (A-Z)</option>
